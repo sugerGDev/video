@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="553ac775-780b-4e97-9251-3566dd7d7b90" name="Default" comment="" />
+    <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/OpenGL_ES-fzgvcjoqbehenqaprhjnaihdzaqd/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_686309c4c4eda098f0f1553102e37ccb0b565cc2" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="OpenGLView.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenGL ES/Classes/View/OpenGLView.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1119">
+              <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GLNavigationController.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenGL ES/Classes/Controller/GLNavigationController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GLNavigationController.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenGL ES/Classes/Controller/GLNavigationController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+              <folding>
+                <element signature="e#90#123#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppDelegate.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenGL ES/AppDelegate.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppDelegate.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenGL ES/AppDelegate.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+              <folding>
+                <element signature="e#126#149#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GLMainController.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenGL ES/Classes/Controller/GLMainController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+              <folding>
+                <element signature="e#90#123#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GLMainController.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OpenGL ES/Classes/Controller/GLMainController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="817">
+              <caret line="43" column="79" lean-forward="false" selection-start-line="43" selection-start-column="79" selection-end-line="43" selection-end-column="79" />
+              <folding>
+                <element signature="e#90#118#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GLTutorial01Controller.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenGL ES/Classes/Tutorial01/GLTutorial01Controller.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="38" />
+              <folding>
+                <element signature="e#90#124#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GLTutorial01Controller.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenGL ES/Classes/Tutorial01/GLTutorial01Controller.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+              <folding>
+                <element signature="e#90#123#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OpenGLView.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenGL ES/Classes/View/OpenGLView.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+              <folding>
+                <element signature="e#90#123#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DEPRECATED</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/OpenGL ES/Classes/View/OpenGLVIew.m" />
+        <option value="$PROJECT_DIR$/OpenGL ES/Classes/View/OpenGLVIew.h" />
+        <option value="$PROJECT_DIR$/OpenGL ES/Classes/View/OpenGLView.m" />
+        <option value="$PROJECT_DIR$/OpenGL ES/Classes/Controller/GLNavigationController.h" />
+        <option value="$PROJECT_DIR$/OpenGL ES/AppDelegate.m" />
+        <option value="$PROJECT_DIR$/OpenGL ES/Classes/Controller/GLMainController.h" />
+        <option value="$PROJECT_DIR$/OpenGL ES/Classes/Tutorial01/GLTutorial01Controller.m" />
+        <option value="$PROJECT_DIR$/OpenGL ES/Classes/Tutorial01/GLTutorial01Controller.h" />
+        <option value="$PROJECT_DIR$/OpenGL ES/Classes/Controller/GLMainController.m" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="313" />
+    <option name="y" value="39" />
+    <option name="width" value="2560" />
+    <option name="height" value="1337" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Cidr.FilesView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="OpenGL ES" type="1d218c8b:XcodeProjectNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="OpenGL ES" type="1d218c8b:XcodeProjectNode" />
+              <item name="OpenGL ES" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="OpenGL ES" type="1d218c8b:XcodeProjectNode" />
+              <item name="OpenGL ES" type="fcab9f18:XcodeViewNode" />
+              <item name="Classes" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="OpenGL ES" type="1d218c8b:XcodeProjectNode" />
+              <item name="OpenGL ES" type="fcab9f18:XcodeViewNode" />
+              <item name="Classes" type="fcab9f18:XcodeViewNode" />
+              <item name="Controller" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="OpenGL ES" type="1d218c8b:XcodeProjectNode" />
+              <item name="OpenGL ES" type="fcab9f18:XcodeViewNode" />
+              <item name="Classes" type="fcab9f18:XcodeViewNode" />
+              <item name="Tutorial01" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="OpenGL ES" type="1d218c8b:XcodeProjectNode" />
+              <item name="OpenGL ES" type="fcab9f18:XcodeViewNode" />
+              <item name="Classes" type="fcab9f18:XcodeViewNode" />
+              <item name="View" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="OpenGL ES" type="1d218c8b:XcodeProjectNode" />
+              <item name="Products" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="OpenGL ES" type="1d218c8b:XcodeProjectNode" />
+              <item name="Products" type="fcab9f18:XcodeViewNode" />
+              <item name="OpenGL ES.app" type="fcab9f18:XcodeViewNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="OpenGL ES" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="OpenGL ES" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL ES" TARGET_NAME="OpenGL ES" CONFIG_NAME="Debug" SCHEME_NAME="OpenGL ES" RUN_TARGET_PROJECT_NAME="OpenGL ES" RUN_TARGET_NAME="OpenGL ES" MAKE_ACTIVE="TRUE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="553ac775-780b-4e97-9251-3566dd7d7b90" name="Default" comment="" />
+      <created>1518091306209</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1518091306209</updated>
+      <workItem from="1518091308868" duration="3522000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3522000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="313" y="39" width="2560" height="1337" extended-state="0" />
+    <layout>
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24970461" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="435" column="8" lean-forward="false" selection-start-line="435" selection-start-column="8" selection-end-line="435" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="292" column="83" lean-forward="false" selection-start-line="292" selection-start-column="73" selection-end-line="292" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenGL ES/Classes/View/OpenGLView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding>
+            <element signature="e#90#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenGL ES/Classes/View/OpenGLView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1119">
+          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenGL ES/AppDelegate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenGL ES/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding>
+            <element signature="e#126#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenGL ES/Classes/Controller/GLNavigationController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="e#90#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenGL ES/Classes/Tutorial01/GLTutorial01Controller.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="e#90#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenGL ES/Classes/Controller/GLMainController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding>
+            <element signature="e#90#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenGL ES/Classes/Controller/GLNavigationController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenGL ES/Classes/Tutorial01/GLTutorial01Controller.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="e#90#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenGL ES/Classes/Controller/GLMainController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="43" column="79" lean-forward="false" selection-start-line="43" selection-start-column="79" selection-end-line="43" selection-end-column="79" />
+          <folding>
+            <element signature="e#90#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
