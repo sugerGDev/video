@@ -25,6 +25,7 @@ static NSString *const kTableCellIdentifier = @"KMainTableCellIdentifier";
     
     _subContrls = @[
             @"GLTutorial01Controller",
+            @"GLTutorial02Controller"
     ];
 }
 

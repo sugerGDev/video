@@ -20,6 +20,8 @@
 		9BC293012033E5DE0005FEE9 /* VertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 9BC293002033E5DE0005FEE9 /* VertexShader.glsl */; };
 		9BC293032033E6340005FEE9 /* FragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 9BC293022033E6340005FEE9 /* FragmentShader.glsl */; };
 		9BC293062033EE1D0005FEE9 /* GLESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC293052033EE1D0005FEE9 /* GLESUtils.m */; };
+		9BC29309203434350005FEE9 /* GLTutorial02Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC29308203434350005FEE9 /* GLTutorial02Controller.m */; };
+		9BC2930C203434B30005FEE9 /* OpenGLView_02.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2930A203434B30005FEE9 /* OpenGLView_02.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,10 @@
 		9BC293022033E6340005FEE9 /* FragmentShader.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = FragmentShader.glsl; sourceTree = "<group>"; };
 		9BC293042033EE1D0005FEE9 /* GLESUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESUtils.h; sourceTree = "<group>"; };
 		9BC293052033EE1D0005FEE9 /* GLESUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLESUtils.m; sourceTree = "<group>"; };
+		9BC29307203434350005FEE9 /* GLTutorial02Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLTutorial02Controller.h; sourceTree = "<group>"; };
+		9BC29308203434350005FEE9 /* GLTutorial02Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLTutorial02Controller.m; sourceTree = "<group>"; };
+		9BC2930A203434B30005FEE9 /* OpenGLView_02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLView_02.m; sourceTree = "<group>"; };
+		9BC2930B203434B30005FEE9 /* OpenGLView_02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView_02.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,8 @@
 			children = (
 				68B4D0DA64026C617168DC70 /* GLTutorial01Controller.m */,
 				68B4DA5DEBB61CEDE7D83756 /* GLTutorial01Controller.h */,
+				9BC29307203434350005FEE9 /* GLTutorial02Controller.h */,
+				9BC29308203434350005FEE9 /* GLTutorial02Controller.m */,
 			);
 			path = Tutorial01;
 			sourceTree = "<group>";
@@ -83,6 +91,8 @@
 		68B4D94D4C3D37A5A4AB9530 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9BC2930B203434B30005FEE9 /* OpenGLView_02.h */,
+				9BC2930A203434B30005FEE9 /* OpenGLView_02.m */,
 				68B4DF1E0C96077B3DF84ED5 /* OpenGLView.m */,
 				68B4DFB1831AEB5BF83BD304 /* OpenGLView.h */,
 			);
@@ -230,9 +240,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC29309203434350005FEE9 /* GLTutorial02Controller.m in Sources */,
 				9B1F45ED202C710200BAF877 /* main.m in Sources */,
 				9BC293062033EE1D0005FEE9 /* GLESUtils.m in Sources */,
 				9B1F45DF202C710200BAF877 /* AppDelegate.m in Sources */,
+				9BC2930C203434B30005FEE9 /* OpenGLView_02.m in Sources */,
 				68B4D78EB41B52E7806FFEF9 /* OpenGLView.m in Sources */,
 				68B4D579E1068513E7FDA837 /* GLNavigationController.m in Sources */,
 				68B4D62C17F1553D2D9C0271 /* GLMainController.m in Sources */,
