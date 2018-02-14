@@ -16,6 +16,11 @@
     EAGLContext *_glContext;
     GLuint _colorRenderBuffer;
     GLuint _frameBuffer;
+    
+    
+    GLuint _programHandle;
+    GLuint _positionSlot;
+    
 }
 
 - (void)setupLayer;
@@ -24,6 +29,8 @@
 - (void)setupFrameBuffer;
 - (void)destoryRenderAndFrameBuffer;
 - (void)render;
+
+- (void)setupProgram;
 
 - (instancetype)initWithFrame:(CGRect)frame;
 - (instancetype)init __attribute__((deprecated("禁止调用，使用- initWithFrame:")));

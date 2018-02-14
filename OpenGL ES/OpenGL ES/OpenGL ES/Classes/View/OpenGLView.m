@@ -5,6 +5,7 @@
 
 #import <QuartzCore/QuartzCore.h>
 #import "OpenGLView.h"
+#import "GLESUtils.h"
 
 @implementation OpenGLView {
 
@@ -35,6 +36,9 @@
         [self setupLayer];
         
         [self setupContext];
+        
+        [self setupProgram];
+        
     
     }
 
@@ -115,8 +119,43 @@
     glClearColor(0.f, 1.f, 0.f, 1.0);
     glClear(GL_COLOR_BUFFER_BIT);
 
+    
+    // setup viewport
+    glViewport(0, 0, self.frame.size.width, self.frame.size.height);
+    
+    GLfloat vertices[] = {
+          0.f,  0.5f,   0.f,
+        -0.5f, -0.5f,   0.f,
+         0.5f, -0.5f,   0.f,
+    };
+    
+    
+    //load the vetices data
+    glVertexAttribPointer(_positionSlot, 3, GL_FLOAT, GL_FALSE, 0, vertices);
+    glEnableVertexAttribArray(_positionSlot);
+    
+    //draw triangle
+    glDrawArrays(GL_TRIANGLES, 0, 3);
+    
+    
     [_glContext presentRenderbuffer:GL_RENDERBUFFER];
 }
 
 
+
+- (void)setupProgram {
+    // load shaders
+    NSString *vertexShaderPath = [[NSBundle mainBundle]pathForResource:@"VertexShader" ofType:@"glsl"];
+    NSString *fragmentShaderPath = [[NSBundle mainBundle] pathForResource:@"FragmentShader" ofType:@"glsl"];
+    
+    _programHandle = [GLESUtils loadProgram:vertexShaderPath
+                 withFragmentShaderFilepath:fragmentShaderPath];
+    if (_programHandle == 0) {
+        NSLog(@" >> Error: Failed to setup program.");
+        return;
+    }
+    
+    glUseProgram(_programHandle);
+    _positionSlot = glGetAttribLocation(_programHandle, "vPosition");
+}
 @end
