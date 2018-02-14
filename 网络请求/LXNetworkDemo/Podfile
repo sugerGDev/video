@@ -1,0 +1,20 @@
+platform :ios, '8.0'
+
+target 'LXNetworkDemo' do
+
+#网络访问
+pod 'AFNetworking'
+
+#解决复杂的手写 autolayout
+pod 'Masonry'
+#显示页面过渡效果
+pod 'MBProgressHUD'
+# YYKit 控件
+pod 'YYKit-fork'
+#刷新
+pod 'MJRefresh'
+
+pod 'MJExtension'
+end
+
+
