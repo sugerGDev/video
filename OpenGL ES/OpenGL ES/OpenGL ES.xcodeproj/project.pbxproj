@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68B4D1624E47D4D44BC66A6B /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4D7A6A2653BBEDD125CC4 /* OpenGLView.m */; };
 		68B4D242761E7167ADF9D563 /* GLTutorial01Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4D0DA64026C617168DC70 /* GLTutorial01Controller.m */; };
 		68B4D579E1068513E7FDA837 /* GLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4D47C95BFD05BBA7CD5B6 /* GLNavigationController.m */; };
 		68B4D62C17F1553D2D9C0271 /* GLMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4D0F6887316ECC5DB2B18 /* GLMainController.m */; };
-		68B4D78EB41B52E7806FFEF9 /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4DF1E0C96077B3DF84ED5 /* OpenGLView.m */; };
 		9B1F45DF202C710200BAF877 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1F45DE202C710200BAF877 /* AppDelegate.m */; };
 		9B1F45E7202C710200BAF877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1F45E6202C710200BAF877 /* Assets.xcassets */; };
 		9B1F45ED202C710200BAF877 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1F45EC202C710200BAF877 /* main.m */; };
 		9B1F45F5202C712D00BAF877 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1F45F4202C712D00BAF877 /* OpenGLES.framework */; };
 		9B1F45FA202C73ED00BAF877 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1F45F9202C73ED00BAF877 /* UIKit.framework */; };
 		9B1F45FC202C740100BAF877 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1F45FB202C740000BAF877 /* QuartzCore.framework */; };
+		9BA73DB9203A6AED00C9ECEC /* OpenGLView_02_Ctrlbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA73DB8203A6AED00C9ECEC /* OpenGLView_02_Ctrlbar.m */; };
+		9BA73DC1203A6BC000C9ECEC /* OpenGLView_02_CtrlLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA73DC0203A6BC000C9ECEC /* OpenGLView_02_CtrlLabel.m */; };
+		9BA73DC4203A785100C9ECEC /* OpenGLView_02_Surface.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BA73DC3203A785100C9ECEC /* OpenGLView_02_Surface.xib */; };
 		9BC293012033E5DE0005FEE9 /* VertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 9BC293002033E5DE0005FEE9 /* VertexShader.glsl */; };
 		9BC293032033E6340005FEE9 /* FragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 9BC293022033E6340005FEE9 /* FragmentShader.glsl */; };
 		9BC293062033EE1D0005FEE9 /* GLESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC293052033EE1D0005FEE9 /* GLESUtils.m */; };
@@ -29,10 +32,10 @@
 		68B4D0DA64026C617168DC70 /* GLTutorial01Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLTutorial01Controller.m; sourceTree = "<group>"; };
 		68B4D0F6887316ECC5DB2B18 /* GLMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLMainController.m; sourceTree = "<group>"; };
 		68B4D47C95BFD05BBA7CD5B6 /* GLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLNavigationController.m; sourceTree = "<group>"; };
+		68B4D7A6A2653BBEDD125CC4 /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLView.m; sourceTree = "<group>"; };
 		68B4DA5DEBB61CEDE7D83756 /* GLTutorial01Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTutorial01Controller.h; sourceTree = "<group>"; };
+		68B4DB810707281BBFC4705E /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
 		68B4DD2E14AEEA3B466A6144 /* GLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLNavigationController.h; sourceTree = "<group>"; };
-		68B4DF1E0C96077B3DF84ED5 /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLView.m; sourceTree = "<group>"; };
-		68B4DFB1831AEB5BF83BD304 /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
 		9B1F45DA202C710200BAF877 /* OpenGL ES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL ES.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B1F45DD202C710200BAF877 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9B1F45DE202C710200BAF877 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,6 +45,11 @@
 		9B1F45F4202C712D00BAF877 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		9B1F45F9202C73ED00BAF877 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9B1F45FB202C740000BAF877 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9BA73DB7203A6AED00C9ECEC /* OpenGLView_02_Ctrlbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLView_02_Ctrlbar.h; sourceTree = "<group>"; };
+		9BA73DB8203A6AED00C9ECEC /* OpenGLView_02_Ctrlbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLView_02_Ctrlbar.m; sourceTree = "<group>"; };
+		9BA73DBF203A6BC000C9ECEC /* OpenGLView_02_CtrlLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLView_02_CtrlLabel.h; sourceTree = "<group>"; };
+		9BA73DC0203A6BC000C9ECEC /* OpenGLView_02_CtrlLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLView_02_CtrlLabel.m; sourceTree = "<group>"; };
+		9BA73DC3203A785100C9ECEC /* OpenGLView_02_Surface.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpenGLView_02_Surface.xib; sourceTree = "<group>"; };
 		9BC293002033E5DE0005FEE9 /* VertexShader.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = VertexShader.glsl; sourceTree = "<group>"; };
 		9BC293022033E6340005FEE9 /* FragmentShader.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = FragmentShader.glsl; sourceTree = "<group>"; };
 		9BC293042033EE1D0005FEE9 /* GLESUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESUtils.h; sourceTree = "<group>"; };
@@ -71,8 +79,6 @@
 			children = (
 				68B4D0DA64026C617168DC70 /* GLTutorial01Controller.m */,
 				68B4DA5DEBB61CEDE7D83756 /* GLTutorial01Controller.h */,
-				9BC29307203434350005FEE9 /* GLTutorial02Controller.h */,
-				9BC29308203434350005FEE9 /* GLTutorial02Controller.m */,
 			);
 			path = Tutorial01;
 			sourceTree = "<group>";
@@ -88,13 +94,20 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		68B4D3B5F31E07C5B7AE9C18 /* 01 */ = {
+			isa = PBXGroup;
+			children = (
+				68B4DB810707281BBFC4705E /* OpenGLView.h */,
+				68B4D7A6A2653BBEDD125CC4 /* OpenGLView.m */,
+			);
+			name = 01;
+			sourceTree = "<group>";
+		};
 		68B4D94D4C3D37A5A4AB9530 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9BC2930B203434B30005FEE9 /* OpenGLView_02.h */,
-				9BC2930A203434B30005FEE9 /* OpenGLView_02.m */,
-				68B4DF1E0C96077B3DF84ED5 /* OpenGLView.m */,
-				68B4DFB1831AEB5BF83BD304 /* OpenGLView.h */,
+				9BA73DBB203A6B0600C9ECEC /* 02 */,
+				68B4D3B5F31E07C5B7AE9C18 /* 01 */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -160,9 +173,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9BA73DBB203A6B0600C9ECEC /* 02 */ = {
+			isa = PBXGroup;
+			children = (
+				9BC2930B203434B30005FEE9 /* OpenGLView_02.h */,
+				9BC2930A203434B30005FEE9 /* OpenGLView_02.m */,
+				9BA73DB7203A6AED00C9ECEC /* OpenGLView_02_Ctrlbar.h */,
+				9BA73DB8203A6AED00C9ECEC /* OpenGLView_02_Ctrlbar.m */,
+				9BA73DBF203A6BC000C9ECEC /* OpenGLView_02_CtrlLabel.h */,
+				9BA73DC0203A6BC000C9ECEC /* OpenGLView_02_CtrlLabel.m */,
+				9BA73DC3203A785100C9ECEC /* OpenGLView_02_Surface.xib */,
+			);
+			name = 02;
+			sourceTree = "<group>";
+		};
 		9BC292FF2033E5B30005FEE9 /* Tutorial02 */ = {
 			isa = PBXGroup;
 			children = (
+				9BC29307203434350005FEE9 /* GLTutorial02Controller.h */,
+				9BC29308203434350005FEE9 /* GLTutorial02Controller.m */,
 				9BC293002033E5DE0005FEE9 /* VertexShader.glsl */,
 				9BC293022033E6340005FEE9 /* FragmentShader.glsl */,
 			);
@@ -230,6 +259,7 @@
 				9BC293012033E5DE0005FEE9 /* VertexShader.glsl in Resources */,
 				9BC293032033E6340005FEE9 /* FragmentShader.glsl in Resources */,
 				9B1F45E7202C710200BAF877 /* Assets.xcassets in Resources */,
+				9BA73DC4203A785100C9ECEC /* OpenGLView_02_Surface.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,10 +275,12 @@
 				9BC293062033EE1D0005FEE9 /* GLESUtils.m in Sources */,
 				9B1F45DF202C710200BAF877 /* AppDelegate.m in Sources */,
 				9BC2930C203434B30005FEE9 /* OpenGLView_02.m in Sources */,
-				68B4D78EB41B52E7806FFEF9 /* OpenGLView.m in Sources */,
+				9BA73DB9203A6AED00C9ECEC /* OpenGLView_02_Ctrlbar.m in Sources */,
 				68B4D579E1068513E7FDA837 /* GLNavigationController.m in Sources */,
+				9BA73DC1203A6BC000C9ECEC /* OpenGLView_02_CtrlLabel.m in Sources */,
 				68B4D62C17F1553D2D9C0271 /* GLMainController.m in Sources */,
 				68B4D242761E7167ADF9D563 /* GLTutorial01Controller.m in Sources */,
+				68B4D1624E47D4D44BC66A6B /* OpenGLView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

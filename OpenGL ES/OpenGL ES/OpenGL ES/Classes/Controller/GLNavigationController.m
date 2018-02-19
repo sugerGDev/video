@@ -9,6 +9,5 @@
 @implementation GLNavigationController {
 
 }
-
 @end
 

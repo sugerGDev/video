@@ -28,22 +28,31 @@
     return nil;
 }
 
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+    if (self = [super initWithCoder:aDecoder]) {
+        [self onCreateResource];
+    }
+    return self;
+}
+
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        
-        self.backgroundColor = UIColor.whiteColor;
-        
-        [self setupLayer];
-        
-        [self setupContext];
-        
-        [self setupProgram];
-        
-    
+        [self onCreateResource];
     }
 
     return self;
+}
+
+- (void)onCreateResource {
+    
+    self.backgroundColor = UIColor.whiteColor;
+    
+    [self setupLayer];
+    
+    [self setupContext];
+    
+    [self setupProgram];
 }
 
 - (void)layoutSubviews {

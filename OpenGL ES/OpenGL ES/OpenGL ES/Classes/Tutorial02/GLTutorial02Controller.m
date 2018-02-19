@@ -7,11 +7,9 @@
 //
 
 #import "GLTutorial02Controller.h"
-#import "OpenGLView_02.h"
 
-@interface GLTutorial02Controller (){
-    OpenGLView_02 *_openGLView;
-}
+
+@interface GLTutorial02Controller ()
 @end
 
 @implementation GLTutorial02Controller
@@ -19,9 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"OpenGLView_02";
-    
-    _openGLView = [[OpenGLView_02 alloc]initWithFrame:self.view.bounds];
-    [self.view addSubview:_openGLView];
+    // load nib
+    NSString *nibViewIdentifier = [NSString stringWithFormat:@"%@",@"OpenGLView_02_Surface"];
+    UINib *nib = [UINib nibWithNibName:nibViewIdentifier bundle:nil];
+    // instantate view
+    UIView *surfaceView = [nib instantiateWithOwner:self.view options:nil].firstObject;
+    [self.view addSubview:surfaceView];
     
     // Do any additional setup after loading the view.
 }
