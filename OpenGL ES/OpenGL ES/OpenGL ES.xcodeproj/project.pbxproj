@@ -20,11 +20,14 @@
 		9BA73DB9203A6AED00C9ECEC /* OpenGLView_02_Ctrlbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA73DB8203A6AED00C9ECEC /* OpenGLView_02_Ctrlbar.m */; };
 		9BA73DC1203A6BC000C9ECEC /* OpenGLView_02_CtrlLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA73DC0203A6BC000C9ECEC /* OpenGLView_02_CtrlLabel.m */; };
 		9BA73DC4203A785100C9ECEC /* OpenGLView_02_Surface.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BA73DC3203A785100C9ECEC /* OpenGLView_02_Surface.xib */; };
+		9BBC445D203BAE2E0085F85A /* OpenGLView_02_Surface.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC445C203BAE2E0085F85A /* OpenGLView_02_Surface.m */; };
+		9BBC4462203BBBF40085F85A /* ksMatrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC445E203BBBF40085F85A /* ksMatrix.c */; };
+		9BBC4463203BBBF40085F85A /* ksVector.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC4461203BBBF40085F85A /* ksVector.c */; };
+		9BBC4466203C22710085F85A /* OpenGLView_02_Bak.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC4465203C22710085F85A /* OpenGLView_02_Bak.m */; };
 		9BC293012033E5DE0005FEE9 /* VertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 9BC293002033E5DE0005FEE9 /* VertexShader.glsl */; };
 		9BC293032033E6340005FEE9 /* FragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 9BC293022033E6340005FEE9 /* FragmentShader.glsl */; };
 		9BC293062033EE1D0005FEE9 /* GLESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC293052033EE1D0005FEE9 /* GLESUtils.m */; };
 		9BC29309203434350005FEE9 /* GLTutorial02Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC29308203434350005FEE9 /* GLTutorial02Controller.m */; };
-		9BC2930C203434B30005FEE9 /* OpenGLView_02.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2930A203434B30005FEE9 /* OpenGLView_02.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,7 @@
 		68B4D0DA64026C617168DC70 /* GLTutorial01Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLTutorial01Controller.m; sourceTree = "<group>"; };
 		68B4D0F6887316ECC5DB2B18 /* GLMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLMainController.m; sourceTree = "<group>"; };
 		68B4D47C95BFD05BBA7CD5B6 /* GLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLNavigationController.m; sourceTree = "<group>"; };
+		68B4D4D0764F27DB6BD21E4B /* GL02TutorialViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GL02TutorialViewProtocol.h; sourceTree = "<group>"; };
 		68B4D7A6A2653BBEDD125CC4 /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLView.m; sourceTree = "<group>"; };
 		68B4DA5DEBB61CEDE7D83756 /* GLTutorial01Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTutorial01Controller.h; sourceTree = "<group>"; };
 		68B4DB810707281BBFC4705E /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
@@ -50,14 +54,20 @@
 		9BA73DBF203A6BC000C9ECEC /* OpenGLView_02_CtrlLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLView_02_CtrlLabel.h; sourceTree = "<group>"; };
 		9BA73DC0203A6BC000C9ECEC /* OpenGLView_02_CtrlLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLView_02_CtrlLabel.m; sourceTree = "<group>"; };
 		9BA73DC3203A785100C9ECEC /* OpenGLView_02_Surface.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpenGLView_02_Surface.xib; sourceTree = "<group>"; };
+		9BBC445B203BAE2E0085F85A /* OpenGLView_02_Surface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLView_02_Surface.h; sourceTree = "<group>"; };
+		9BBC445C203BAE2E0085F85A /* OpenGLView_02_Surface.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLView_02_Surface.m; sourceTree = "<group>"; };
+		9BBC445E203BBBF40085F85A /* ksMatrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ksMatrix.c; sourceTree = "<group>"; };
+		9BBC445F203BBBF40085F85A /* ksMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ksMatrix.h; sourceTree = "<group>"; };
+		9BBC4460203BBBF40085F85A /* ksVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ksVector.h; sourceTree = "<group>"; };
+		9BBC4461203BBBF40085F85A /* ksVector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ksVector.c; sourceTree = "<group>"; };
+		9BBC4464203C22710085F85A /* OpenGLView_02_Bak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLView_02_Bak.h; sourceTree = "<group>"; };
+		9BBC4465203C22710085F85A /* OpenGLView_02_Bak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLView_02_Bak.m; sourceTree = "<group>"; };
 		9BC293002033E5DE0005FEE9 /* VertexShader.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = VertexShader.glsl; sourceTree = "<group>"; };
 		9BC293022033E6340005FEE9 /* FragmentShader.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = FragmentShader.glsl; sourceTree = "<group>"; };
 		9BC293042033EE1D0005FEE9 /* GLESUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESUtils.h; sourceTree = "<group>"; };
 		9BC293052033EE1D0005FEE9 /* GLESUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLESUtils.m; sourceTree = "<group>"; };
 		9BC29307203434350005FEE9 /* GLTutorial02Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLTutorial02Controller.h; sourceTree = "<group>"; };
 		9BC29308203434350005FEE9 /* GLTutorial02Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLTutorial02Controller.m; sourceTree = "<group>"; };
-		9BC2930A203434B30005FEE9 /* OpenGLView_02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLView_02.m; sourceTree = "<group>"; };
-		9BC2930B203434B30005FEE9 /* OpenGLView_02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView_02.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +125,10 @@
 		68B4DC236FFED913E3DA45BD /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				9BBC445E203BBBF40085F85A /* ksMatrix.c */,
+				9BBC445F203BBBF40085F85A /* ksMatrix.h */,
+				9BBC4461203BBBF40085F85A /* ksVector.c */,
+				9BBC4460203BBBF40085F85A /* ksVector.h */,
 				9BC293042033EE1D0005FEE9 /* GLESUtils.h */,
 				9BC293052033EE1D0005FEE9 /* GLESUtils.m */,
 			);
@@ -176,13 +190,15 @@
 		9BA73DBB203A6B0600C9ECEC /* 02 */ = {
 			isa = PBXGroup;
 			children = (
-				9BC2930B203434B30005FEE9 /* OpenGLView_02.h */,
-				9BC2930A203434B30005FEE9 /* OpenGLView_02.m */,
 				9BA73DB7203A6AED00C9ECEC /* OpenGLView_02_Ctrlbar.h */,
 				9BA73DB8203A6AED00C9ECEC /* OpenGLView_02_Ctrlbar.m */,
 				9BA73DBF203A6BC000C9ECEC /* OpenGLView_02_CtrlLabel.h */,
 				9BA73DC0203A6BC000C9ECEC /* OpenGLView_02_CtrlLabel.m */,
 				9BA73DC3203A785100C9ECEC /* OpenGLView_02_Surface.xib */,
+				9BBC445B203BAE2E0085F85A /* OpenGLView_02_Surface.h */,
+				9BBC445C203BAE2E0085F85A /* OpenGLView_02_Surface.m */,
+				9BBC4464203C22710085F85A /* OpenGLView_02_Bak.h */,
+				9BBC4465203C22710085F85A /* OpenGLView_02_Bak.m */,
 			);
 			name = 02;
 			sourceTree = "<group>";
@@ -190,6 +206,7 @@
 		9BC292FF2033E5B30005FEE9 /* Tutorial02 */ = {
 			isa = PBXGroup;
 			children = (
+				68B4D4D0764F27DB6BD21E4B /* GL02TutorialViewProtocol.h */,
 				9BC29307203434350005FEE9 /* GLTutorial02Controller.h */,
 				9BC29308203434350005FEE9 /* GLTutorial02Controller.m */,
 				9BC293002033E5DE0005FEE9 /* VertexShader.glsl */,
@@ -270,16 +287,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BBC4462203BBBF40085F85A /* ksMatrix.c in Sources */,
 				9BC29309203434350005FEE9 /* GLTutorial02Controller.m in Sources */,
 				9B1F45ED202C710200BAF877 /* main.m in Sources */,
 				9BC293062033EE1D0005FEE9 /* GLESUtils.m in Sources */,
+				9BBC445D203BAE2E0085F85A /* OpenGLView_02_Surface.m in Sources */,
 				9B1F45DF202C710200BAF877 /* AppDelegate.m in Sources */,
-				9BC2930C203434B30005FEE9 /* OpenGLView_02.m in Sources */,
 				9BA73DB9203A6AED00C9ECEC /* OpenGLView_02_Ctrlbar.m in Sources */,
 				68B4D579E1068513E7FDA837 /* GLNavigationController.m in Sources */,
 				9BA73DC1203A6BC000C9ECEC /* OpenGLView_02_CtrlLabel.m in Sources */,
 				68B4D62C17F1553D2D9C0271 /* GLMainController.m in Sources */,
 				68B4D242761E7167ADF9D563 /* GLTutorial01Controller.m in Sources */,
+				9BBC4463203BBBF40085F85A /* ksVector.c in Sources */,
+				9BBC4466203C22710085F85A /* OpenGLView_02_Bak.m in Sources */,
 				68B4D1624E47D4D44BC66A6B /* OpenGLView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

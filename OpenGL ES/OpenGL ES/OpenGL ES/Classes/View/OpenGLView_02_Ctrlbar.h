@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OpenGLView_02_CtrlLabel.h"
+
+@protocol GL02TutorialViewProtocol;
 
 @interface OpenGLView_02_Ctrlbar : UIView
+@property (weak) id<GL02TutorialViewProtocol> gl02protocol;
 
 @end

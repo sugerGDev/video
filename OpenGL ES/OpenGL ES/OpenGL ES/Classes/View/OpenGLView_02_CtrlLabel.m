@@ -26,20 +26,12 @@
     return nil;
 }
 
-- (instancetype)initWithTitleValue:(NSString *)titleValue SliderActionBlock:(OpenGLView_02_CtrlLabelSliderActionBlock)sliderActionBlock {
-    self = [super init];
-    if (self) {
-        self.titleLbl.text = titleValue;
-        self.sliderActionBlock = sliderActionBlock;
-    }
-
-    return self;
-}
-
 
 - (void)dealloc {
     self.sliderActionBlock = nil;
 }
+
+
 
 /*
 // Only override drawRect: if you perform custom drawing.
@@ -52,6 +44,10 @@
     if (self.sliderActionBlock) {
         self.sliderActionBlock(sender.value);
     }
+}
+
+- (void)setSliderValue:(CGFloat)value {
+    self.valueSlider.value = value;
 }
 
 @end
